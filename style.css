@@ -1,0 +1,153 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', Courier, monospace;
+}
+
+.header-top {
+    margin-left: 24px;
+    color: #989D9C;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.explore {
+
+    width: 239px;
+    height: 64px;
+    border-radius: 34.5px;
+    background: #ADFF00;
+    border: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+header {
+
+    padding: 15px;
+    margin: 13px;
+}
+
+img {
+    margin: 80px 80px;
+    width: 532px;
+
+
+
+}
+
+h1 {
+    color: #515151;
+    font-family: Montserrat;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+}
+
+h2 {
+    color: #515151;
+    font-family: Montserrat;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+p {
+    color: #848484;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 500px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+button {
+    width: 130px;
+    height: 41px;
+    border-radius: 20.5px;
+    background: #665AE1;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 10px
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    header {
+        display: none;
+    }
+
+    img {
+
+        width: 50%;
+        height: 50%;
+        display: block;
+    }
+
+    section {
+
+        width: 50%;
+        height: 50%;
+        display: block;
+    }
+
+    h1 {
+
+        color: #515151;
+        font-family: Montserrat;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        width: max-content;
+    }
+
+    h2 {
+        color: #515151;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        width: max-content;
+
+    }
+
+    p {
+
+        display: none;
+    }
+
+    .explore {
+        width: 210px;
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+conteiner {
+    width: 100%;
+
+}
+
+}
